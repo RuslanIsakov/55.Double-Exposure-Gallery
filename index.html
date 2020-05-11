@@ -73,3 +73,8 @@ this.settingCanvas();
 
       this.preButton.addEventListener("click", function (e) {
         if (!this.animating) {
+this.left = false;
+          clearTimeout(this.timer);
+          this.slide();
+        }
+      }.bind(this), false);
