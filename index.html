@@ -78,3 +78,7 @@ this.left = false;
           this.slide();
         }
       }.bind(this), false);
+
+      this.preButton.addEventListener("touchend", function (e) {
+        if (!this.animating) {
+          this.left = false;
