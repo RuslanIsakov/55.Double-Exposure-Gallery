@@ -69,3 +69,7 @@ _createClass(DXslider, [{
     key: "init",
     value: function init() {
       this.settingStyle();
+this.settingCanvas();
+
+      this.preButton.addEventListener("click", function (e) {
+        if (!this.animating) {
