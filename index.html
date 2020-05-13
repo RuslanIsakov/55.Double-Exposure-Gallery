@@ -100,3 +100,11 @@ this.nextButton.addEventListener("click", function (e) {
           this.slide();
         }
       }.bind(this), false);
+ this.nextButton.addEventListener("touchend", function (e) {
+        if (!this.animating) {
+          this.left = true;
+          clearTimeout(this.timer);
+          this.slide();
+        }
+      }.bind(this), false);
+    }
