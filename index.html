@@ -140,3 +140,7 @@ this.render(this.progress, -this.imagesWidth);
       this.timer = setTimeout(this.slide.bind(this), this.interval);
     }
   }, {
+ key: "slide",
+    value: function slide() {
+      this.left ? this.tween(-this.imagesWidth, this.duration, this.easing) : this.tween(this.imagesWidth, this.duration, this.easing);
+    }
