@@ -132,3 +132,7 @@ this.nextButton.addEventListener("click", function (e) {
         canvas.height = this.height;
         canvas.style.width = this.imagesWidth + "px";
         canvas.style.height = this.imagesWidth * this.height / this.width + "px";
+//add images(lighten and normal) into canvasArray
+        n = i % (len / 2);
+        normal = this.normalImages[n];
+        lighten = this.lightenImages[n];
