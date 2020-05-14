@@ -124,3 +124,7 @@ this.nextButton.addEventListener("click", function (e) {
  key: "settingCanvas",
     value: function settingCanvas() {
       var canvas, context, normal, lighten, n;
+ for (var i = 0, len = this.normalImages.length * 2; i < len; i++) {
+        canvas = document.createElement("canvas");
+        this.canvasBox.appendChild(canvas);
+        context = canvas.getContext("2d");
