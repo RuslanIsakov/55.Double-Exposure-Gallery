@@ -136,3 +136,7 @@ this.nextButton.addEventListener("click", function (e) {
         n = i % (len / 2);
         normal = this.normalImages[n];
         lighten = this.lightenImages[n];
+this.render(this.progress, -this.imagesWidth);
+      this.timer = setTimeout(this.slide.bind(this), this.interval);
+    }
+  }, {
