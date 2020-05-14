@@ -147,3 +147,9 @@ this.render(this.progress, -this.imagesWidth);
  }, {
     key: "tween",
     value: function tween(change, duration, easingFunc) {
+ var startTime = new Date();
+      this.progress = 0;
+      this.animating = true;
+      this.update(startTime, change, duration, easingFunc);
+    }
+  }, {
