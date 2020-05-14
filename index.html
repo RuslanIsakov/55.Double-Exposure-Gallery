@@ -128,3 +128,7 @@ this.nextButton.addEventListener("click", function (e) {
         canvas = document.createElement("canvas");
         this.canvasBox.appendChild(canvas);
         context = canvas.getContext("2d");
+ canvas.width = this.width;
+        canvas.height = this.height;
+        canvas.style.width = this.imagesWidth + "px";
+        canvas.style.height = this.imagesWidth * this.height / this.width + "px";
