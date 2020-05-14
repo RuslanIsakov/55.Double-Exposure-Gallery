@@ -144,3 +144,6 @@ this.render(this.progress, -this.imagesWidth);
     value: function slide() {
       this.left ? this.tween(-this.imagesWidth, this.duration, this.easing) : this.tween(this.imagesWidth, this.duration, this.easing);
     }
+ }, {
+    key: "tween",
+    value: function tween(change, duration, easingFunc) {
