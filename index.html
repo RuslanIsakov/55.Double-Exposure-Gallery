@@ -170,3 +170,6 @@ if (time < duration) {
           this.canvasArray.pop();
           this.canvasArray.unshift(lastEle);
         }
+ this.progress = 1;
+        this.animating = false;
+        time = duration;
