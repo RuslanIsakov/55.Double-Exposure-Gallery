@@ -153,3 +153,6 @@ this.render(this.progress, -this.imagesWidth);
       this.update(startTime, change, duration, easingFunc);
     }
   }, {
+ key: "update",
+    value: function update(startTime, change, duration, easingFunc) {
+      var time = new Date() - startTime;
