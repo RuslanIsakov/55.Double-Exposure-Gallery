@@ -156,3 +156,8 @@ this.render(this.progress, -this.imagesWidth);
  key: "update",
     value: function update(startTime, change, duration, easingFunc) {
       var time = new Date() - startTime;
+if (time < duration) {
+        this.progress = easingFunc(time / duration);
+        this.render(this.progress, change);
+        requestAnimationFrame(this.update.bind(this, startTime, change, duration, easingFunc));
+      } else {
