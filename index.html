@@ -173,3 +173,9 @@ if (time < duration) {
  this.progress = 1;
         this.animating = false;
         time = duration;
+this.left = true;
+        this.render(0, -this.imagesWidth);
+        this.timer = setTimeout(this.slide.bind(this), this.interval);
+      }
+    }
+  }, {
