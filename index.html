@@ -161,3 +161,8 @@ if (time < duration) {
         this.render(this.progress, change);
         requestAnimationFrame(this.update.bind(this, startTime, change, duration, easingFunc));
       } else {
+ if (this.left) {
+          var firstEle = this.canvasArray[0];
+          this.canvasArray.shift();
+          this.canvasArray.push(firstEle);
+        } else {
