@@ -166,3 +166,7 @@ if (time < duration) {
           this.canvasArray.shift();
           this.canvasArray.push(firstEle);
         } else {
+ var lastEle = this.canvasArray[this.canvasArray.length - 1];
+          this.canvasArray.pop();
+          this.canvasArray.unshift(lastEle);
+        }
