@@ -187,3 +187,5 @@ key: "render",
         canvas.style.transform = "translate(" + (progress * position - (len / 2 - i) * this.imagesWidth) + "px, 0)";
  canvas.style.setProperty("-webkit-transform", "translate(" + (progress * position - (len / 2 - i) * this.imagesWidth) + "px, 0)");
         canvas.style.transform = "translate(" + (progress * position - (len / 2 - i) * this.imagesWidth) + "px, 0)";
+  context.globalCompositeOperation = "source-over";
+        context.drawImage(this.canvasArray[i].normal, 0, 0, this.width, this.height);
