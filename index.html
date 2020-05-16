@@ -183,3 +183,5 @@ key: "render",
     value: function render(progress, position) {
       for (var i = 0, len = this.canvasArray.length; i < len; i++) {
         var canvas = this.canvasArray[i].canvas;
+ canvas.style.setProperty("-webkit-transform", "translate(" + (progress * position - (len / 2 - i) * this.imagesWidth) + "px, 0)");
+        canvas.style.transform = "translate(" + (progress * position - (len / 2 - i) * this.imagesWidth) + "px, 0)";
