@@ -5,3 +5,6 @@
 body{
   background: #222;
 }
+#loading{
+  color: #fff;
+  position: absolute;
