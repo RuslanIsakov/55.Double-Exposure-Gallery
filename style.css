@@ -28,3 +28,5 @@ body{
 .canvas{
   position: relative;
   display:block;
+  overflow: hidden;
+}
