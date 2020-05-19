@@ -30,3 +30,7 @@ body{
   display:block;
   overflow: hidden;
 }
+#images img{
+  display: none;
+  vertical-align: bottom;
+}
