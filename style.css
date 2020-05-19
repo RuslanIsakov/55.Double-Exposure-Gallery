@@ -25,3 +25,6 @@ body{
   margin-top: -165px;
   left: calc(18% - 133px);
 }
+.canvas{
+  position: relative;
+  display:block;
