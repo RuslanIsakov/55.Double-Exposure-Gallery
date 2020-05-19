@@ -13,3 +13,6 @@ body{
   line-height: 2em;
   top: calc(50% - 1em) ;
   left: calc(50% - 5em);
+  z-index: 2;
+  text-align: center;
+}
