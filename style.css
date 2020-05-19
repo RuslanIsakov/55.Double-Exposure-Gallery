@@ -19,3 +19,6 @@ body{
 .loading-done{
   display: none;
 }
+#images{
+  position: absolute;
+  width: 85%;
