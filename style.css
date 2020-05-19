@@ -22,3 +22,6 @@ body{
 #images{
   position: absolute;
   width: 85%;
+  margin-top: -165px;
+  left: calc(18% - 133px);
+}
