@@ -49,3 +49,6 @@ nav li {
   opacity: .3;
   list-style: none;
   top: calc(50% - 12px);
+  z-index: 100;
+  transition: opacity .3s;
+}
