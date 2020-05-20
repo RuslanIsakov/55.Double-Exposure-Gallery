@@ -47,3 +47,5 @@ nav li {
   width: 25px;
   height: 25px;
   opacity: .3;
+  list-style: none;
+  top: calc(50% - 12px);
