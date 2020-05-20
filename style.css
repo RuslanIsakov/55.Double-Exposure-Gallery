@@ -34,3 +34,7 @@ body{
   display: none;
   vertical-align: bottom;
 }
+canvas{
+  vertical-align: bottom;
+  position: absolute;
+}
