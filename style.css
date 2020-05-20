@@ -52,3 +52,6 @@ nav li {
   z-index: 100;
   transition: opacity .3s;
 }
+nav li:hover{
+  opacity: .7;
+}
