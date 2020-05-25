@@ -58,3 +58,5 @@ nav li:hover{
 .pre.after-loading{
   left: -40px;
   -webkit-transform: rotate(-45deg);
+ transform: rotate(-45deg);
+  border-top: 2px solid #fff;
