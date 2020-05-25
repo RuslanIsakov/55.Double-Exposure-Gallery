@@ -60,3 +60,5 @@ nav li:hover{
   -webkit-transform: rotate(-45deg);
  transform: rotate(-45deg);
   border-top: 2px solid #fff;
+ border-left: 2px solid #fff;
+}
