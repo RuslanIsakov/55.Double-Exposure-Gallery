@@ -55,3 +55,6 @@ nav li {
 nav li:hover{
   opacity: .7;
 }
+.pre.after-loading{
+  left: -40px;
+  -webkit-transform: rotate(-45deg);
